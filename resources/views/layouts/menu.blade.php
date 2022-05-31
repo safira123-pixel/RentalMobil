@@ -17,14 +17,8 @@
           <a class="nav-link" href="{{ URL::to('registrasi') }}">REGISTRASI</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CONTACT US</a>
+          <a class="nav-link" href="{{ URL::to('about') }}">ABOUT US</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Kontak</a>
-        </li> -->
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
-        </li> -->
       </ul>
     </div>
   </div>

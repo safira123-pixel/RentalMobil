@@ -11,5 +11,11 @@ class HomepageController extends Controller
         $data = array('title' => 'Need A-Car');
         return view('homepage.index', $data);
     }
+
+    public function about() {
+        $data = array('title' => 'Tentang Kami');
+        return view('homepage.about', $data);
+    }
+
 }
 

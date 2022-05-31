@@ -28,3 +28,4 @@ Auth::routes();
 Route::get('/', [HomepageController::class,'index']);
 Route::get('login', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login');
 Route::get('registrasi', [App\Http\Controllers\Auth\RegisterController::class, 'showRegistrationForm'])->name('register');
+Route::get('/about', [HomepageController::class, 'about']);
