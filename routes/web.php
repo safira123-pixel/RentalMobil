@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\RegisterController;
 
 
 /*
@@ -20,9 +21,10 @@ use App\Http\Controllers\Auth\LoginController;
 //     return view('welcome');
 // });
 
-// Auth::routes();
+Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/', [HomepageController::class,'index']);
-Route::get('/login', [LoginController::class,'login']);
+Route::get('login', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login');
+Route::get('registrasi', [App\Http\Controllers\Auth\RegisterController::class, 'showRegistrationForm'])->name('register');

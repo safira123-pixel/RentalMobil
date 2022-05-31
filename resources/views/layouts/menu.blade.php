@@ -11,13 +11,13 @@
           <a class="nav-link" href="{{ url('/') }}">BERANDA</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url('/login') }}">LOGIN</a>
+          <a class="nav-link" href="{{ URL::to('login') }}">LOGIN</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">REGISTRASI</a>
+          <a class="nav-link" href="{{ URL::to('registrasi') }}">REGISTRASI</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT US</a>
+          <a class="nav-link" href="#">CONTACT US</a>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="#">Kontak</a>
