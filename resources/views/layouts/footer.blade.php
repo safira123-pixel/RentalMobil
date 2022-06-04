@@ -58,7 +58,7 @@
 <div class="widget no-box">
 <h5 class="widget-title">Get Started<span></span></h5>
 <p>Join us and get access to our page now.</p>
-<a class="btn" href="{{ URL::to('registrasi') }}" target="_blank">Join Us</a>
+<a class="btn" href="{{ URL::to('registrasi') }}" target="registrasi">Join Us</a>
 </div>
 </div>
 
@@ -69,7 +69,7 @@
 
 <div class = "Link">
 <p><a href="mailto:NeedACAr@gmail.com" title="glorythemes">NeedACar@gmail.com</a></p>
-<p><a href="tel:+6281370587320" title="glorythemes">081-370-587-320 (Whatsapp)</a></p>
+<p><a href="https://wa.me/6281370587320?text=Saya%20tertarik%20untuk%20merental%20mobil%20Anda" title="glorythemes">081-370-587-320 (Whatsapp)</a></p>
 <p><a href="https://goo.gl/maps/EPWE3VCZYrMFH7EF9" title="glorythemes">Jl. Simpang Pisang Kipas, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141</a></p>
 </div>
 <ul class="social-footer2">

@@ -45,7 +45,7 @@
                                 </div>
                                 <div class="form-group">
                                     <button type="submit" class="btn btn-primary mb-4">Register</button>
-                                    <p>Sudah punya akun? Login <a href="{{ route('login') }}" class="text-decoration-none">disini</a></p>
+                                    <p>Have an Account? Login <a href="{{ route('login') }}" class="text-decoration-none">Here</a></p>
                                 </div>
                             </div>
                         </div>
