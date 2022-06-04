@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\DashboardController;
+
 
 
 /*
@@ -29,3 +31,6 @@ Route::get('/', [HomepageController::class,'index']);
 Route::get('login', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login');
 Route::get('registrasi', [App\Http\Controllers\Auth\RegisterController::class, 'showRegistrationForm'])->name('register');
 Route::get('/about', [HomepageController::class, 'about']);
+Route::group(['prefix' => 'admin'], function() {
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+  });
