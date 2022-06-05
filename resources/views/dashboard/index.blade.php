@@ -3,16 +3,17 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-6 col-lg-3">
-      <div class="small-box bg-primary">
+      <div class="small-box bg-secondary">
         <div class="inner">
           <h3>150</h3>
 
-          <p>Order Baru</p>
+          <p>available car</p>
         </div>
-        <div class="icon">
-          <i class="ion ion-car"></i>
-        </div>
-        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+        <!-- <div class="icon">
+          <i class="ion ion-bag"></i>
+          <i class="fas fa-car fa-2x text-gray-300"></i>
+        </div> -->
+        <a href="#" class="small-box-footer">More info</a>
       </div>
     </div>
     <div class="col-6 col-lg-3">
@@ -20,12 +21,12 @@
         <div class="inner">
           <h3>150</h3>
 
-          <p>Produk</p>
+          <p>Customer</p>
         </div>
-        <div class="icon">
+        <!-- <div class="icon">
           <i class="ion ion-pie-graph"></i>
-        </div>
-        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+        </div> -->
+        <a href="#" class="small-box-footer">More info</a>
       </div>
     </div>
     <div class="col-6 col-lg-3">
@@ -33,12 +34,12 @@
         <div class="inner">
           <h3>150</h3>
 
-          <p>Member</p>
+          <p>Transaction</p>
         </div>
-        <div class="icon">
+        <!-- <div class="icon">
           <i class="ion ion-person-add"></i>
-        </div>
-        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+        </div> -->
+        <a href="#" class="small-box-footer">More info</a>
       </div>
     </div>
 
@@ -47,12 +48,12 @@
         <div class="inner">
           <h3>150</h3>
 
-          <p>Transaksi</p>
+          <p>Active Transaction</p>
         </div>
-        <div class="icon">
+        <!-- <div class="icon">
           <i class="ion ion-stats-bars"></i>
-        </div>
-        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+        </div> -->
+        <a href="#" class="small-box-footer">More info</a>
       </div>
     </div>
   </div>
@@ -61,7 +62,7 @@
     <div class="col">
       <div class="card">
         <div class="card-header">
-          <h4 class="card-title">Produk Baru</h4>
+          <h4 class="card-title">Sales Transaction</h4>
           <div class="card-tools">
             <a href="#" class="btn btn-sm btn-primary">
               More
@@ -73,37 +74,37 @@
             <thead>
               <tr>
                 <th>No</th>
-                <th>Kode</th>
-                <th>Nama</th>
-                <th>Kategori</th>
-                <th>Qty</th>
-                <th>Harga</th>
+                <th>Code</th>
+                <th>Tenant Name</th>
+                <th>Rent Car</th>
+                <th>Rent (Per Day)</th>
+                <th>Price</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>1</td>
-                <td>PRO-1</td>
-                <td>Baju Atasan</td>
-                <td>Baju Anak</td>
-                <td>12 kodi</td>
-                <td>5.000</td>
+                <td>001</td>
+                <td>Alvin</td>
+                <td>Avanza</td>
+                <td>1</td>
+                <td>850.000.00</td>
               </tr>
               <tr>
                 <td>2</td>
-                <td>PRO-2</td>
-                <td>Gamis</td>
-                <td>Baju Wanita</td>
-                <td>20 kodi</td>
-                <td>25.000</td>
+                <td>002</td>
+                <td>Farah</td>
+                <td>Panther</td>
+                <td>1</td>
+                <td>700.000,00</td>
               </tr>
               <tr>
                 <td>3</td>
-                <td>PRO-3</td>
-                <td>Daster</td>
-                <td>Baju Wanita</td>
-                <td>20 kodi</td>
-                <td>125.000</td>
+                <td>003</td>
+                <td>Junia</td>
+                <td>Honda VXY</td>
+                <td>2</td>
+                <td>1.000.000,00</td>
               </tr>
             </tbody>
           </table>

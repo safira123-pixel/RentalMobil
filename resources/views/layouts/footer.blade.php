@@ -1,9 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      
     <hr />
-      <!-- <p>&copy Copyright Rental Mobil - Kelompok 7</p> -->
     </div>
   </div>
 </div>
@@ -13,17 +11,17 @@
 
 
 <footer id="footer" class="footer-1">
-<div class="main-footer widgets-dark typo-light">
-<div class="container">
-<div class="row">
+  <div class="main-footer widgets-dark typo-light">
+    <div class="container">
+      <div class="row">
   
-<div class="col-xs-12 col-sm-6 col-md-3">
-<div class="widget subscribe no-box">
-<h5 class="widget-title">NEED-A-CAR<span></span></h5>
-<p>“We are a car rental company that has decades of experience in renting cars to customers throughout the country.
-   Get cheap prices and attractive bonuses” </p>
-</div>
-</div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="widget subscribe no-box">
+            <h5 class="widget-title">NEED-A-CAR<span></span></h5>
+                <p>“We are a car rental company that has decades of experience in renting cars to customers throughout the country.
+                    Get cheap prices and attractive bonuses” </p>
+        </div>
+          </div>
 
 <div class="col-xs-12 col-sm-6 col-md-3">
 <div class="widget no-box">
@@ -32,9 +30,6 @@
 <li>
 <div class="thumb-content"><a href="{{ url('/') }}">Homepage</a></div> 
 </li>
-<!-- <li>
-<div class="thumb-content"><a href="#.">Join Us</a></div> 
-</li> -->
 <li>
 <div class="thumb-content"><a href="#.">Find Car</a></div> 
 </li>
@@ -44,12 +39,6 @@
 <li>
 <div class="thumb-content"><a href="#.">testimonials</a></div>  
 </li>
-<!-- <li>
-<div class="thumb-content"><a href="#.">Lifestyle</a></div> 
-</li>
-<li>
-<div class="thumb-content"><a href="#.">About</a></div> 
-</li> -->
 </ul>
 </div>
 </div>
