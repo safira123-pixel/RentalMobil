@@ -12,14 +12,14 @@
   </head>
   <body>
     <!-- menunya kita taruh persis di bawah <body> -->
-    @include('layouts.menu')
+    @include('layouts.menucustomer')
     <!-- di bawah menu baru kontennya -->
 
     <!-- Mulai sini kontennya depannya kasih @ sama yield-->
     @yield('content')
     <!-- Sampai sini -->
 
-    @include('layouts.footer')
+    @include('layouts.footercustomer')
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

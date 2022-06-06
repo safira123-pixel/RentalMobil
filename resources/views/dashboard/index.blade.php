@@ -1,5 +1,6 @@
 @extends('layouts.dashboard')
 @section('content')
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 <div class="container-fluid">
   <div class="row">
     <div class="col-6 col-lg-3">
@@ -9,10 +10,6 @@
 
           <p>available car</p>
         </div>
-        <!-- <div class="icon">
-          <i class="ion ion-bag"></i>
-          <i class="fas fa-car fa-2x text-gray-300"></i>
-        </div> -->
         <a href="#" class="small-box-footer">More info</a>
       </div>
     </div>
@@ -23,9 +20,6 @@
 
           <p>Customer</p>
         </div>
-        <!-- <div class="icon">
-          <i class="ion ion-pie-graph"></i>
-        </div> -->
         <a href="#" class="small-box-footer">More info</a>
       </div>
     </div>
@@ -36,9 +30,6 @@
 
           <p>Transaction</p>
         </div>
-        <!-- <div class="icon">
-          <i class="ion ion-person-add"></i>
-        </div> -->
         <a href="#" class="small-box-footer">More info</a>
       </div>
     </div>
@@ -50,14 +41,11 @@
 
           <p>Active Transaction</p>
         </div>
-        <!-- <div class="icon">
-          <i class="ion ion-stats-bars"></i>
-        </div> -->
         <a href="#" class="small-box-footer">More info</a>
       </div>
     </div>
   </div>
-  <!-- table produk baru -->
+
   <div class="row">
     <div class="col">
       <div class="card">
