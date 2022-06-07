@@ -34,7 +34,8 @@ Route::get('/', [HomepageController::class,'index']);
 Route::get('/customer', [CustomerController::class,'index'])->name('customer');
 Route::get('login', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login');
 Route::get('registrasi', [App\Http\Controllers\Auth\RegisterController::class, 'showRegistrationForm'])->name('register');
-Route::get('/about', [HomepageController::class, 'about']);
+Route::get('/about', [HomepageController::class, 'about'])->name('about');
+Route::get('/customer/about', [CustomerController::class, 'about']);
 Route::group(['prefix' => 'admin'], function() {
     Route::get('/home', [DashboardController::class, 'index'])->name('dashboard');
 

@@ -35,7 +35,7 @@
 <div class="thumb-content"><a href="#.">Find Car</a></div> 
 </li>
 <li>
-<div class="thumb-content"><a href="{{ URL::to('about') }}">About Us</a></div> 
+<div class="thumb-content"><a href="{{ url('/customer/about') }}">About Us</a></div> 
 </li>
 <li>
 <div class="thumb-content"><a href="#.">testimonials</a></div>  

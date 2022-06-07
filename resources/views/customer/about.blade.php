@@ -1,4 +1,4 @@
-@extends('layouts.templatehomepage')
+@extends('layouts.templatecustomer')
 @section('content')
 <!-- Halaman About -->
 <div class="container">
